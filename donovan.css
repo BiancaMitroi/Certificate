@@ -1,0 +1,72 @@
+﻿.div1 {
+  width: 80px;
+  height: 40px;
+padding:5px;
+}
+.div2 {
+  width: 80px;
+  height: 40px;
+padding:5px;
+}
+.div3 {display:flex;
+  width: 150px;
+  height: 40px;
+padding:1px;
+}
+.div4 {display:flex;
+  width: 150px;
+  height: 40px;
+padding:1px;
+}
+
+div{padding:40px;}
+table,td{background-color:6eff97;border:15px solid #f1f1f1;border-collapse:collapse;}
+#mySidenav a {
+  position: fixed;
+  left: -100px;
+  transition: 0.3s;
+  padding: 5px;
+  width: 150px;height:50px;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+.inapoi {
+  top: 0;
+  background-color: #fffc66;
+}
+
+.scutecele {
+  top: 70px;
+  background-color: #fffc66;
+}
+
+.MarionDonovan {
+  top: 140px;
+  background-color: #fffc66;
+}
+
+.Viatapersonala {
+  top: 210px;
+  background-color: #fffc66;
+}
+.Povesteainventiei {
+  top: 280px;
+  background-color: #fffc66;}
+.Urmari {
+  top: 350px;
+  background-color: #fffc66;}
+.Alteinventii {
+  top:420px;
+  background-color: #fffc66;}
+html{scroll-behavior:smooth;font-family:Century Gothic;
+font-size:11px;}
+
+
+

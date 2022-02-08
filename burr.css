@@ -1,0 +1,74 @@
+﻿.tablink {
+  background-color:#d3e9f6;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;padding-top:5px;padding-bottom:5px;
+  font-size: 17px;
+  width: 33.3%;
+text-decoration:none;
+}
+
+.tablink:hover {
+  background-color: #87bfe0;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  height: 100%;
+}
+
+#Home {background-color: #68e1ff;}
+#News {background-color: #52b0f7;}
+#Contact {background-color: #4666f3;}
+html{scroll-behavior:smooth;font-family:Century Gothic;
+font-size:15px;}
+
+.im{width:40px;height:40px;}
+
+
+ul{list-style-type: none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#b0ebec;
+position:fixed;
+width:100%;
+top:0;
+position:sticky;
+}
+li{
+float:left;
+}
+li a{text-decoration:none;
+display:block;
+color:black;
+padding:4px 6px;
+}
+li a:hover{background-color:#70dbde;}
+.column {background-color:#ded4ae;padding:10px;border-radius:25px 25px 25px 25px;
+  float: left;margin-top:0.5%;
+  width:33%;margin-left:0.5%;
+}
+.colum {background-color:#ded4ae;padding:10px;border-radius:25px 25px 25px 25px;
+  padding: 10px;margin-top:0.5%;
+  width:48%;margin-left:0.5%;}
+
+.row {
+  content: "";
+  display:flex;
+  clear: both;
+}
+.al{background-color:#70dbde;padding:10px;border-radius:25px 25px 25px 25px;}
+@media only screen and (max-width: 700px)
+{html{font-size:11px;}
+.im{width:20px;height:20px;}
+.colum{width:96%;}
+.column{width:96%;margin-top:0.5%;}
+.row{display:inline;}
+.detalii{display:none;}
+}
+

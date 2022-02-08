@@ -1,0 +1,60 @@
+﻿.button{
+  background-color: #f1f1f1;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+html{scroll-behavior:smooth;font-family:Century Gothic;
+font-size:15px;}
+
+div{padding:10px;}
+table,td{background-color:white;
+border:15px solid #f1f1f1;
+border-collapse:collapse;}
+ul{list-style-type: none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#f1f1f1;
+position:fixed;
+top:0;
+left:0;
+overflow-x: hidden;
+}
+li{
+float:left;
+}
+li a{text-decoration:none;
+display:block;
+color:black;
+}
+li a:hover{background-color:white;}
+
+.im{width:40px;height:40px;}
+
+
+.column {background-color:#ded4ae;padding:10px;border-radius:25px 25px 25px 25px;
+  float: left;margin-top:0.5%;
+  width:33%;margin-left:0.5%;
+}
+.colum {background-color:#ded4ae;padding:10px;border-radius:25px 25px 25px 25px;
+  padding: 10px;margin-top:0.5%;
+  width:48%;margin-left:0.5%;}
+
+.row {
+  content: "";
+  display:flex;
+  clear: both;
+}
+.al{background-color:#70dbde;padding:10px;border-radius:25px 25px 25px 25px;}
+@media only screen and (max-width: 700px)
+{html{font-size:11px;}
+.im{width:20px;height:20px;}
+.colum{width:96%;}
+.column{width:96%;margin-top:0.5%;}
+.row{display:inline;}
+.detalii{display:none;}
+}
+

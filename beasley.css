@@ -1,0 +1,120 @@
+﻿.sidepanel  {
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  height: 500px;
+  top: 0;
+  left: 0;
+  background-color:none;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 15px;padding-left: 4px;
+border-radius:0 0 30px 0;
+}
+
+.sidepanel a {
+  padding: 4px 4px 4px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+html{scroll-behavior:smooth;}
+div1{padding:50px;}
+table,td{background-color:#fec12b;
+border:15px solid #f1f1f1;
+border-collapse:collapse;}
+.dropbtn {
+  background-color: none;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: none;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: none;}
+html{scroll-behavior:smooth;font-family:Century Gothic;
+font-size:15px;}
+
+.im{width:40px;height:40px;}
+
+
+ul{list-style-type: none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#b0ebec;
+position:fixed;
+width:100%;
+top:0;
+position:sticky;
+}
+li{
+float:left;
+}
+li a{text-decoration:none;
+display:block;
+color:black;
+padding:4px 6px;
+}
+li a:hover{background-color:#70dbde;}
+.column {background-color:#ded4ae;padding:10px;border-radius:25px 25px 25px 25px;
+  float: left;margin-top:0.5%;
+  width:33%;margin-left:0.5%;
+}
+.colum {background-color:#ded4ae;padding:10px;border-radius:25px 25px 25px 25px;
+  padding: 10px;margin-top:0.5%;
+  width:48%;margin-left:0.5%;}
+
+.row {
+  content: "";
+  display:flex;
+  clear: both;
+}
+.al{margin-top:0.5%;background-color:#f1f1f1;padding:10px;border-radius:25px 25px 25px 25px;}
+@media only screen and (max-width: 700px)
+{html{font-size:11px;}
+.im{width:20px;height:20px;}
+.colum{width:96%;}
+.column{width:96%;margin-top:0.5%;}
+.row{display:inline;}
+.detalii{display:none;}
+}
+
